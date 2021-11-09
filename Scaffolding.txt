@@ -1,0 +1,25 @@
+1. Users will have to fill in the parameters of CIC creations
+
+function SetupCIC(address _creator, string _CIC_name, string _symbol, address[] signatories) {
+
+	// creates CIC smart contract
+
+};
+
+
+
+2. Creator and Signatories will be able to commit goods and services to that CIC before deploying
+
+function CommitToBackCIC(string _cic_name, string _name, uint _phone, string _goods&services, uint _amount, uint _value) {
+
+	// adds a good or service to the CIC
+
+};
+
+2. Creator will be able to deploy the contract
+
+function deployCIC(string _cic_name) {
+
+	// deploys the CIC as an ERC20 contract, and the goods and services as NFTs
+
+};
